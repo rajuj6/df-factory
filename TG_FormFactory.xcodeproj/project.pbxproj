@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2D31651D6AC2AC00820B47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D31641D6AC2AC00820B47 /* main.m */; };
+		CE2D31681D6AC2AD00820B47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D31671D6AC2AD00820B47 /* AppDelegate.m */; };
+		CE2D316B1D6AC2AD00820B47 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D316A1D6AC2AD00820B47 /* MasterViewController.m */; };
+		CE2D316E1D6AC2AD00820B47 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D316D1D6AC2AD00820B47 /* DetailViewController.m */; };
+		CE2D31711D6AC2AD00820B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2D316F1D6AC2AD00820B47 /* Main.storyboard */; };
+		CE2D31731D6AC2AD00820B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2D31721D6AC2AD00820B47 /* Assets.xcassets */; };
+		CE2D31761D6AC2AD00820B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2D31741D6AC2AD00820B47 /* LaunchScreen.storyboard */; };
+		CE2D31911D6AC35000820B47 /* DynamicFormFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D31901D6AC35000820B47 /* DynamicFormFactory.m */; };
+		CE2D31951D6AC38F00820B47 /* DFFTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D31941D6AC38F00820B47 /* DFFTextCell.m */; };
+		CE2D31991D6AC3B300820B47 /* DFFButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D31981D6AC3B300820B47 /* DFFButtonCell.m */; };
+		CE2D319D1D6AC3D700820B47 /* DFFCheckBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D319C1D6AC3D700820B47 /* DFFCheckBoxCell.m */; };
+		CE2D31A11D6AC3F300820B47 /* DFFCheckSelectListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D31A01D6AC3F300820B47 /* DFFCheckSelectListVC.m */; };
+		CE2D31A51D6AC41800820B47 /* DFFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D31A41D6AC41800820B47 /* DFFObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE2D31601D6AC2AC00820B47 /* TG_FormFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TG_FormFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2D31641D6AC2AC00820B47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE2D31661D6AC2AC00820B47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE2D31671D6AC2AD00820B47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE2D31691D6AC2AD00820B47 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CE2D316A1D6AC2AD00820B47 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CE2D316C1D6AC2AD00820B47 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CE2D316D1D6AC2AD00820B47 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CE2D31701D6AC2AD00820B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2D31721D6AC2AD00820B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2D31751D6AC2AD00820B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2D31771D6AC2AD00820B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2D318F1D6AC35000820B47 /* DynamicFormFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicFormFactory.h; sourceTree = "<group>"; };
+		CE2D31901D6AC35000820B47 /* DynamicFormFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicFormFactory.m; sourceTree = "<group>"; };
+		CE2D31931D6AC38F00820B47 /* DFFTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFFTextCell.h; sourceTree = "<group>"; };
+		CE2D31941D6AC38F00820B47 /* DFFTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFFTextCell.m; sourceTree = "<group>"; };
+		CE2D31971D6AC3B300820B47 /* DFFButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFFButtonCell.h; sourceTree = "<group>"; };
+		CE2D31981D6AC3B300820B47 /* DFFButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFFButtonCell.m; sourceTree = "<group>"; };
+		CE2D319B1D6AC3D700820B47 /* DFFCheckBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFFCheckBoxCell.h; sourceTree = "<group>"; };
+		CE2D319C1D6AC3D700820B47 /* DFFCheckBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFFCheckBoxCell.m; sourceTree = "<group>"; };
+		CE2D319F1D6AC3F300820B47 /* DFFCheckSelectListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFFCheckSelectListVC.h; sourceTree = "<group>"; };
+		CE2D31A01D6AC3F300820B47 /* DFFCheckSelectListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFFCheckSelectListVC.m; sourceTree = "<group>"; };
+		CE2D31A31D6AC41800820B47 /* DFFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFFObject.h; sourceTree = "<group>"; };
+		CE2D31A41D6AC41800820B47 /* DFFObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFFObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2D315D1D6AC2AC00820B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2D31571D6AC2AB00820B47 = {
+			isa = PBXGroup;
+			children = (
+				CE2D31621D6AC2AC00820B47 /* TG_FormFactory */,
+				CE2D31611D6AC2AC00820B47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2D31611D6AC2AC00820B47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D31601D6AC2AC00820B47 /* TG_FormFactory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2D31621D6AC2AC00820B47 /* TG_FormFactory */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D318C1D6AC32600820B47 /* DynamicFormFactory */,
+				CE2D31661D6AC2AC00820B47 /* AppDelegate.h */,
+				CE2D31671D6AC2AD00820B47 /* AppDelegate.m */,
+				CE2D31691D6AC2AD00820B47 /* MasterViewController.h */,
+				CE2D316A1D6AC2AD00820B47 /* MasterViewController.m */,
+				CE2D316C1D6AC2AD00820B47 /* DetailViewController.h */,
+				CE2D316D1D6AC2AD00820B47 /* DetailViewController.m */,
+				CE2D316F1D6AC2AD00820B47 /* Main.storyboard */,
+				CE2D31721D6AC2AD00820B47 /* Assets.xcassets */,
+				CE2D31741D6AC2AD00820B47 /* LaunchScreen.storyboard */,
+				CE2D31771D6AC2AD00820B47 /* Info.plist */,
+				CE2D31631D6AC2AC00820B47 /* Supporting Files */,
+			);
+			path = TG_FormFactory;
+			sourceTree = "<group>";
+		};
+		CE2D31631D6AC2AC00820B47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D31641D6AC2AC00820B47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE2D318C1D6AC32600820B47 /* DynamicFormFactory */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D318D1D6AC32600820B47 /* Elements */,
+				CE2D318E1D6AC32600820B47 /* DataModel */,
+				CE2D318F1D6AC35000820B47 /* DynamicFormFactory.h */,
+				CE2D31901D6AC35000820B47 /* DynamicFormFactory.m */,
+			);
+			path = DynamicFormFactory;
+			sourceTree = "<group>";
+		};
+		CE2D318D1D6AC32600820B47 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D31931D6AC38F00820B47 /* DFFTextCell.h */,
+				CE2D31941D6AC38F00820B47 /* DFFTextCell.m */,
+				CE2D31971D6AC3B300820B47 /* DFFButtonCell.h */,
+				CE2D31981D6AC3B300820B47 /* DFFButtonCell.m */,
+				CE2D319B1D6AC3D700820B47 /* DFFCheckBoxCell.h */,
+				CE2D319C1D6AC3D700820B47 /* DFFCheckBoxCell.m */,
+				CE2D319F1D6AC3F300820B47 /* DFFCheckSelectListVC.h */,
+				CE2D31A01D6AC3F300820B47 /* DFFCheckSelectListVC.m */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		CE2D318E1D6AC32600820B47 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D31A31D6AC41800820B47 /* DFFObject.h */,
+				CE2D31A41D6AC41800820B47 /* DFFObject.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2D315F1D6AC2AC00820B47 /* TG_FormFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2D31851D6AC2AD00820B47 /* Build configuration list for PBXNativeTarget "TG_FormFactory" */;
+			buildPhases = (
+				CE2D315C1D6AC2AC00820B47 /* Sources */,
+				CE2D315D1D6AC2AC00820B47 /* Frameworks */,
+				CE2D315E1D6AC2AC00820B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TG_FormFactory;
+			productName = HS_SampleTask;
+			productReference = CE2D31601D6AC2AC00820B47 /* TG_FormFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2D31581D6AC2AC00820B47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tagove Limited";
+				TargetAttributes = {
+					CE2D315F1D6AC2AC00820B47 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 24Z7VB36CJ;
+					};
+				};
+			};
+			buildConfigurationList = CE2D315B1D6AC2AC00820B47 /* Build configuration list for PBXProject "TG_FormFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2D31571D6AC2AB00820B47;
+			productRefGroup = CE2D31611D6AC2AC00820B47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2D315F1D6AC2AC00820B47 /* TG_FormFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2D315E1D6AC2AC00820B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2D31761D6AC2AD00820B47 /* LaunchScreen.storyboard in Resources */,
+				CE2D31731D6AC2AD00820B47 /* Assets.xcassets in Resources */,
+				CE2D31711D6AC2AD00820B47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2D315C1D6AC2AC00820B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2D31681D6AC2AD00820B47 /* AppDelegate.m in Sources */,
+				CE2D316B1D6AC2AD00820B47 /* MasterViewController.m in Sources */,
+				CE2D31651D6AC2AC00820B47 /* main.m in Sources */,
+				CE2D319D1D6AC3D700820B47 /* DFFCheckBoxCell.m in Sources */,
+				CE2D31A11D6AC3F300820B47 /* DFFCheckSelectListVC.m in Sources */,
+				CE2D31A51D6AC41800820B47 /* DFFObject.m in Sources */,
+				CE2D31991D6AC3B300820B47 /* DFFButtonCell.m in Sources */,
+				CE2D31911D6AC35000820B47 /* DynamicFormFactory.m in Sources */,
+				CE2D316E1D6AC2AD00820B47 /* DetailViewController.m in Sources */,
+				CE2D31951D6AC38F00820B47 /* DFFTextCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE2D316F1D6AC2AD00820B47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2D31701D6AC2AD00820B47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2D31741D6AC2AD00820B47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2D31751D6AC2AD00820B47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2D31831D6AC2AD00820B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE2D31841D6AC2AD00820B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2D31861D6AC2AD00820B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24Z7VB36CJ;
+				INFOPLIST_FILE = "$(SRCROOT)/TG_FormFactory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TG-FormFactory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE2D31871D6AC2AD00820B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24Z7VB36CJ;
+				INFOPLIST_FILE = "$(SRCROOT)/TG_FormFactory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TG-FormFactory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2D315B1D6AC2AC00820B47 /* Build configuration list for PBXProject "TG_FormFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2D31831D6AC2AD00820B47 /* Debug */,
+				CE2D31841D6AC2AD00820B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2D31851D6AC2AD00820B47 /* Build configuration list for PBXNativeTarget "TG_FormFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2D31861D6AC2AD00820B47 /* Debug */,
+				CE2D31871D6AC2AD00820B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2D31581D6AC2AC00820B47 /* Project object */;
+}
